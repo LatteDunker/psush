@@ -17,7 +17,7 @@ current-user β:
 ```bash
 alyaj β: echo hello world
 hello world
-psush alyaj β:
+alyaj β:  
 ```
 
 ## Built-in Commands
