@@ -1,6 +1,6 @@
 # psush
 
-Psush, is minimal shell program I completed in my operating systems class. It takes in user commands and utilizes a number of operating system calls to execute those commands.
+Psush, is minimal shell program I completed in my operating systems class. It takes in user commands and utilizes a number of operating system calls to execute those commands. It can also run other programs/commands installed on your system, pipe I/O between commands, and redirect I/O of files.
 
 ## Installation
 
@@ -18,6 +18,9 @@ current-user β:
 alyaj β: echo hello world
 hello world
 alyaj β:  
+```
+```bash
+alyaj β: vim main.c
 ```
 
 ## Built-in Commands
