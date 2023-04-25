@@ -1,0 +1,46 @@
+pwd
+
+cd .
+pwd
+
+cd ..
+pwd
+
+cd Lab2
+pwd
+
+
+cd
+pwd
+
+exit
+
+cd ././../Lab2/.
+pwd
+
+
+ls
+ls -l
+ls -l -a
+ls -l -a -F
+ls -l -aFg -r
+ls -la -F -tBh -r -S
+
+who -H
+who -HT > file1.txt
+
+wc -l < file1.txt
+wc -c < file1.txt > file2.txt
+
+cat < psush > psush_cmp
+cmp psush psush_cmp
+file psush psush_cmp
+
+w > file3.txt
+wc -c -l < file3.txt
+wc -c -l -w < file3.txt > file4.txt
+
+cat -n /etc/passwd
+
+grep root /etc/passwd
+grep -i root /etc/passwd
